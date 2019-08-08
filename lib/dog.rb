@@ -11,7 +11,7 @@ class Dog
   def self.clear_all
     @@all = []
   end
-  def print_all 
+  def print_all
     @@all.each do |x|
       binding.pry
     end
