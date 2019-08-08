@@ -11,11 +11,10 @@ class Dog
   def self.clear_all
     @@all = []
   end
-  def print_all
+  def self.print_all
     @@all.each do |x|
-      binding.pry
+      puts x
     end
   end
 end
-a = Dog.new
-b = Dog.new
+
