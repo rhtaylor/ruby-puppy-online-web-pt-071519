@@ -3,4 +3,7 @@ class Dog
   def initialize
     @@all << self
   end
+  def add 
+    @@all 
+  end
 end
