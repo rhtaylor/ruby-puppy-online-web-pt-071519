@@ -18,3 +18,4 @@ class Dog
   end
 end
 a = Dog.new
+b = Dog.new
